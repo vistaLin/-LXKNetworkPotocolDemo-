@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C23BCAC67C20A31B9AA7AB /* libPods-LXKNetworkProtocolDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB030AFE1E8711F1D87AC55E /* libPods-LXKNetworkProtocolDemoUITests.a */; };
+		7B737768D5AB0A498D0EA44A /* libPods-LXKNetworkProtocolDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D5CA2D54EC166017E4D87D /* libPods-LXKNetworkProtocolDemo.a */; };
+		AA4EA098F9D2C0E88E633C1E /* libPods-LXKNetworkProtocolDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FFE455F3F469F6FF91CB83 /* libPods-LXKNetworkProtocolDemoTests.a */; };
+		C371BF591F1E082300AEAD88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C371BF581F1E082300AEAD88 /* main.m */; };
+		C371BF5C1F1E082300AEAD88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C371BF5B1F1E082300AEAD88 /* AppDelegate.m */; };
+		C371BF5F1F1E082300AEAD88 /* LXKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C371BF5E1F1E082300AEAD88 /* LXKBaseViewController.m */; };
+		C371BF621F1E082300AEAD88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C371BF601F1E082300AEAD88 /* Main.storyboard */; };
+		C371BF641F1E082300AEAD88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C371BF631F1E082300AEAD88 /* Assets.xcassets */; };
+		C371BF671F1E082300AEAD88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C371BF651F1E082300AEAD88 /* LaunchScreen.storyboard */; };
+		C371BF721F1E082300AEAD88 /* LXKNetworkProtocolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C371BF711F1E082300AEAD88 /* LXKNetworkProtocolDemoTests.m */; };
+		C371BF7D1F1E082300AEAD88 /* LXKNetworkProtocolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C371BF7C1F1E082300AEAD88 /* LXKNetworkProtocolDemoUITests.m */; };
+		C371BF9D1F1E0B2600AEAD88 /* LXKBaseNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = C371BF971F1E0B2600AEAD88 /* LXKBaseNetwork.m */; };
+		C371BF9E1F1E0B2600AEAD88 /* LXKNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C371BF991F1E0B2600AEAD88 /* LXKNetworkHelper.m */; };
+		C371BF9F1F1E0B2600AEAD88 /* LXKNetworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C371BF9B1F1E0B2600AEAD88 /* LXKNetworkModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C371BF6E1F1E082300AEAD88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C371BF4C1F1E082200AEAD88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C371BF531F1E082300AEAD88;
+			remoteInfo = LXKNetworkProtocolDemo;
+		};
+		C371BF791F1E082300AEAD88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C371BF4C1F1E082200AEAD88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C371BF531F1E082300AEAD88;
+			remoteInfo = LXKNetworkProtocolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CE36945630F022756CA39F /* Pods-LXKNetworkProtocolDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXKNetworkProtocolDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXKNetworkProtocolDemoTests/Pods-LXKNetworkProtocolDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BD555594D70B5963C000AEE /* Pods-LXKNetworkProtocolDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXKNetworkProtocolDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXKNetworkProtocolDemoUITests/Pods-LXKNetworkProtocolDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D31BB438DFA3E4BB0103666 /* Pods-LXKNetworkProtocolDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXKNetworkProtocolDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXKNetworkProtocolDemoTests/Pods-LXKNetworkProtocolDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		46C1C95B011B4383836E52FE /* Pods-LXKNetworkProtocolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXKNetworkProtocolDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXKNetworkProtocolDemo/Pods-LXKNetworkProtocolDemo.release.xcconfig"; sourceTree = "<group>"; };
+		49165484D344264BC21DA1BC /* Pods-LXKNetworkProtocolDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXKNetworkProtocolDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXKNetworkProtocolDemoUITests/Pods-LXKNetworkProtocolDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7427C5A00CC5CA2E5400E454 /* Pods-LXKNetworkProtocolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXKNetworkProtocolDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXKNetworkProtocolDemo/Pods-LXKNetworkProtocolDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		90D5CA2D54EC166017E4D87D /* libPods-LXKNetworkProtocolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXKNetworkProtocolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C371BF541F1E082300AEAD88 /* LXKNetworkProtocolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXKNetworkProtocolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C371BF581F1E082300AEAD88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C371BF5A1F1E082300AEAD88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C371BF5B1F1E082300AEAD88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C371BF5D1F1E082300AEAD88 /* LXKBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXKBaseViewController.h; sourceTree = "<group>"; };
+		C371BF5E1F1E082300AEAD88 /* LXKBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXKBaseViewController.m; sourceTree = "<group>"; };
+		C371BF611F1E082300AEAD88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C371BF631F1E082300AEAD88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C371BF661F1E082300AEAD88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C371BF681F1E082300AEAD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C371BF6D1F1E082300AEAD88 /* LXKNetworkProtocolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXKNetworkProtocolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C371BF711F1E082300AEAD88 /* LXKNetworkProtocolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXKNetworkProtocolDemoTests.m; sourceTree = "<group>"; };
+		C371BF731F1E082300AEAD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C371BF781F1E082300AEAD88 /* LXKNetworkProtocolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXKNetworkProtocolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C371BF7C1F1E082300AEAD88 /* LXKNetworkProtocolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXKNetworkProtocolDemoUITests.m; sourceTree = "<group>"; };
+		C371BF7E1F1E082300AEAD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C371BF961F1E0B2600AEAD88 /* LXKBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXKBaseNetwork.h; sourceTree = "<group>"; };
+		C371BF971F1E0B2600AEAD88 /* LXKBaseNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXKBaseNetwork.m; sourceTree = "<group>"; };
+		C371BF981F1E0B2600AEAD88 /* LXKNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXKNetworkHelper.h; sourceTree = "<group>"; };
+		C371BF991F1E0B2600AEAD88 /* LXKNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXKNetworkHelper.m; sourceTree = "<group>"; };
+		C371BF9A1F1E0B2600AEAD88 /* LXKNetworkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXKNetworkModel.h; sourceTree = "<group>"; };
+		C371BF9B1F1E0B2600AEAD88 /* LXKNetworkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXKNetworkModel.m; sourceTree = "<group>"; };
+		C371BF9C1F1E0B2600AEAD88 /* LXKNetworkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXKNetworkProtocol.h; sourceTree = "<group>"; };
+		E3FFE455F3F469F6FF91CB83 /* libPods-LXKNetworkProtocolDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXKNetworkProtocolDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB030AFE1E8711F1D87AC55E /* libPods-LXKNetworkProtocolDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXKNetworkProtocolDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C371BF511F1E082300AEAD88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B737768D5AB0A498D0EA44A /* libPods-LXKNetworkProtocolDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C371BF6A1F1E082300AEAD88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4EA098F9D2C0E88E633C1E /* libPods-LXKNetworkProtocolDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C371BF751F1E082300AEAD88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C23BCAC67C20A31B9AA7AB /* libPods-LXKNetworkProtocolDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4E5225408955749BB8F7A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7427C5A00CC5CA2E5400E454 /* Pods-LXKNetworkProtocolDemo.debug.xcconfig */,
+				46C1C95B011B4383836E52FE /* Pods-LXKNetworkProtocolDemo.release.xcconfig */,
+				05CE36945630F022756CA39F /* Pods-LXKNetworkProtocolDemoTests.debug.xcconfig */,
+				3D31BB438DFA3E4BB0103666 /* Pods-LXKNetworkProtocolDemoTests.release.xcconfig */,
+				49165484D344264BC21DA1BC /* Pods-LXKNetworkProtocolDemoUITests.debug.xcconfig */,
+				2BD555594D70B5963C000AEE /* Pods-LXKNetworkProtocolDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7EE907801199F115A840F3BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90D5CA2D54EC166017E4D87D /* libPods-LXKNetworkProtocolDemo.a */,
+				E3FFE455F3F469F6FF91CB83 /* libPods-LXKNetworkProtocolDemoTests.a */,
+				FB030AFE1E8711F1D87AC55E /* libPods-LXKNetworkProtocolDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C371BF4B1F1E082200AEAD88 = {
+			isa = PBXGroup;
+			children = (
+				C371BF561F1E082300AEAD88 /* LXKNetworkProtocolDemo */,
+				C371BF701F1E082300AEAD88 /* LXKNetworkProtocolDemoTests */,
+				C371BF7B1F1E082300AEAD88 /* LXKNetworkProtocolDemoUITests */,
+				C371BF551F1E082300AEAD88 /* Products */,
+				4C4E5225408955749BB8F7A1 /* Pods */,
+				7EE907801199F115A840F3BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C371BF551F1E082300AEAD88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C371BF541F1E082300AEAD88 /* LXKNetworkProtocolDemo.app */,
+				C371BF6D1F1E082300AEAD88 /* LXKNetworkProtocolDemoTests.xctest */,
+				C371BF781F1E082300AEAD88 /* LXKNetworkProtocolDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C371BF561F1E082300AEAD88 /* LXKNetworkProtocolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C371BF951F1E0B2600AEAD88 /* Network */,
+				C371BF5A1F1E082300AEAD88 /* AppDelegate.h */,
+				C371BF5B1F1E082300AEAD88 /* AppDelegate.m */,
+				C371BF5D1F1E082300AEAD88 /* LXKBaseViewController.h */,
+				C371BF5E1F1E082300AEAD88 /* LXKBaseViewController.m */,
+				C371BF601F1E082300AEAD88 /* Main.storyboard */,
+				C371BF631F1E082300AEAD88 /* Assets.xcassets */,
+				C371BF651F1E082300AEAD88 /* LaunchScreen.storyboard */,
+				C371BF681F1E082300AEAD88 /* Info.plist */,
+				C371BF571F1E082300AEAD88 /* Supporting Files */,
+			);
+			path = LXKNetworkProtocolDemo;
+			sourceTree = "<group>";
+		};
+		C371BF571F1E082300AEAD88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C371BF581F1E082300AEAD88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C371BF701F1E082300AEAD88 /* LXKNetworkProtocolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C371BF711F1E082300AEAD88 /* LXKNetworkProtocolDemoTests.m */,
+				C371BF731F1E082300AEAD88 /* Info.plist */,
+			);
+			path = LXKNetworkProtocolDemoTests;
+			sourceTree = "<group>";
+		};
+		C371BF7B1F1E082300AEAD88 /* LXKNetworkProtocolDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C371BF7C1F1E082300AEAD88 /* LXKNetworkProtocolDemoUITests.m */,
+				C371BF7E1F1E082300AEAD88 /* Info.plist */,
+			);
+			path = LXKNetworkProtocolDemoUITests;
+			sourceTree = "<group>";
+		};
+		C371BF951F1E0B2600AEAD88 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C371BF961F1E0B2600AEAD88 /* LXKBaseNetwork.h */,
+				C371BF971F1E0B2600AEAD88 /* LXKBaseNetwork.m */,
+				C371BF981F1E0B2600AEAD88 /* LXKNetworkHelper.h */,
+				C371BF991F1E0B2600AEAD88 /* LXKNetworkHelper.m */,
+				C371BF9A1F1E0B2600AEAD88 /* LXKNetworkModel.h */,
+				C371BF9B1F1E0B2600AEAD88 /* LXKNetworkModel.m */,
+				C371BF9C1F1E0B2600AEAD88 /* LXKNetworkProtocol.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C371BF531F1E082300AEAD88 /* LXKNetworkProtocolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C371BF811F1E082300AEAD88 /* Build configuration list for PBXNativeTarget "LXKNetworkProtocolDemo" */;
+			buildPhases = (
+				3159557D48C642AA3C22250A /* [CP] Check Pods Manifest.lock */,
+				C371BF501F1E082300AEAD88 /* Sources */,
+				C371BF511F1E082300AEAD88 /* Frameworks */,
+				C371BF521F1E082300AEAD88 /* Resources */,
+				33FF2C823FBAC7719871D6FD /* [CP] Embed Pods Frameworks */,
+				17D6A196CCDF596C58C9C1D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXKNetworkProtocolDemo;
+			productName = LXKNetworkProtocolDemo;
+			productReference = C371BF541F1E082300AEAD88 /* LXKNetworkProtocolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C371BF6C1F1E082300AEAD88 /* LXKNetworkProtocolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C371BF841F1E082300AEAD88 /* Build configuration list for PBXNativeTarget "LXKNetworkProtocolDemoTests" */;
+			buildPhases = (
+				651657481DAA876D35B34AB7 /* [CP] Check Pods Manifest.lock */,
+				C371BF691F1E082300AEAD88 /* Sources */,
+				C371BF6A1F1E082300AEAD88 /* Frameworks */,
+				C371BF6B1F1E082300AEAD88 /* Resources */,
+				8686EB01BF4E1F5F0CA82B26 /* [CP] Embed Pods Frameworks */,
+				BF951AFDB22A13F189DE4494 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C371BF6F1F1E082300AEAD88 /* PBXTargetDependency */,
+			);
+			name = LXKNetworkProtocolDemoTests;
+			productName = LXKNetworkProtocolDemoTests;
+			productReference = C371BF6D1F1E082300AEAD88 /* LXKNetworkProtocolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C371BF771F1E082300AEAD88 /* LXKNetworkProtocolDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C371BF871F1E082300AEAD88 /* Build configuration list for PBXNativeTarget "LXKNetworkProtocolDemoUITests" */;
+			buildPhases = (
+				ED75EABFA96EDAEF771BF040 /* [CP] Check Pods Manifest.lock */,
+				C371BF741F1E082300AEAD88 /* Sources */,
+				C371BF751F1E082300AEAD88 /* Frameworks */,
+				C371BF761F1E082300AEAD88 /* Resources */,
+				483F45E0FA63CF56E57F5EE0 /* [CP] Embed Pods Frameworks */,
+				2F3433643294C48669344F1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C371BF7A1F1E082300AEAD88 /* PBXTargetDependency */,
+			);
+			name = LXKNetworkProtocolDemoUITests;
+			productName = LXKNetworkProtocolDemoUITests;
+			productReference = C371BF781F1E082300AEAD88 /* LXKNetworkProtocolDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C371BF4C1F1E082200AEAD88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Lennon;
+				TargetAttributes = {
+					C371BF531F1E082300AEAD88 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KSB9G8373H;
+						ProvisioningStyle = Automatic;
+					};
+					C371BF6C1F1E082300AEAD88 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KSB9G8373H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C371BF531F1E082300AEAD88;
+					};
+					C371BF771F1E082300AEAD88 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KSB9G8373H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C371BF531F1E082300AEAD88;
+					};
+				};
+			};
+			buildConfigurationList = C371BF4F1F1E082200AEAD88 /* Build configuration list for PBXProject "LXKNetworkProtocolDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C371BF4B1F1E082200AEAD88;
+			productRefGroup = C371BF551F1E082300AEAD88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C371BF531F1E082300AEAD88 /* LXKNetworkProtocolDemo */,
+				C371BF6C1F1E082300AEAD88 /* LXKNetworkProtocolDemoTests */,
+				C371BF771F1E082300AEAD88 /* LXKNetworkProtocolDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C371BF521F1E082300AEAD88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C371BF671F1E082300AEAD88 /* LaunchScreen.storyboard in Resources */,
+				C371BF641F1E082300AEAD88 /* Assets.xcassets in Resources */,
+				C371BF621F1E082300AEAD88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C371BF6B1F1E082300AEAD88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C371BF761F1E082300AEAD88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17D6A196CCDF596C58C9C1D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXKNetworkProtocolDemo/Pods-LXKNetworkProtocolDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F3433643294C48669344F1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXKNetworkProtocolDemoUITests/Pods-LXKNetworkProtocolDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3159557D48C642AA3C22250A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33FF2C823FBAC7719871D6FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXKNetworkProtocolDemo/Pods-LXKNetworkProtocolDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		483F45E0FA63CF56E57F5EE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXKNetworkProtocolDemoUITests/Pods-LXKNetworkProtocolDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		651657481DAA876D35B34AB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8686EB01BF4E1F5F0CA82B26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXKNetworkProtocolDemoTests/Pods-LXKNetworkProtocolDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF951AFDB22A13F189DE4494 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXKNetworkProtocolDemoTests/Pods-LXKNetworkProtocolDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED75EABFA96EDAEF771BF040 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C371BF501F1E082300AEAD88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C371BF9E1F1E0B2600AEAD88 /* LXKNetworkHelper.m in Sources */,
+				C371BF5F1F1E082300AEAD88 /* LXKBaseViewController.m in Sources */,
+				C371BF9F1F1E0B2600AEAD88 /* LXKNetworkModel.m in Sources */,
+				C371BF5C1F1E082300AEAD88 /* AppDelegate.m in Sources */,
+				C371BF591F1E082300AEAD88 /* main.m in Sources */,
+				C371BF9D1F1E0B2600AEAD88 /* LXKBaseNetwork.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C371BF691F1E082300AEAD88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C371BF721F1E082300AEAD88 /* LXKNetworkProtocolDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C371BF741F1E082300AEAD88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C371BF7D1F1E082300AEAD88 /* LXKNetworkProtocolDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C371BF6F1F1E082300AEAD88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C371BF531F1E082300AEAD88 /* LXKNetworkProtocolDemo */;
+			targetProxy = C371BF6E1F1E082300AEAD88 /* PBXContainerItemProxy */;
+		};
+		C371BF7A1F1E082300AEAD88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C371BF531F1E082300AEAD88 /* LXKNetworkProtocolDemo */;
+			targetProxy = C371BF791F1E082300AEAD88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C371BF601F1E082300AEAD88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C371BF611F1E082300AEAD88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C371BF651F1E082300AEAD88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C371BF661F1E082300AEAD88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C371BF7F1F1E082300AEAD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C371BF801F1E082300AEAD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C371BF821F1E082300AEAD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7427C5A00CC5CA2E5400E454 /* Pods-LXKNetworkProtocolDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KSB9G8373H;
+				INFOPLIST_FILE = LXKNetworkProtocolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xingkuan.lin.LXKNetworkProtocolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C371BF831F1E082300AEAD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C1C95B011B4383836E52FE /* Pods-LXKNetworkProtocolDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KSB9G8373H;
+				INFOPLIST_FILE = LXKNetworkProtocolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xingkuan.lin.LXKNetworkProtocolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C371BF851F1E082300AEAD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CE36945630F022756CA39F /* Pods-LXKNetworkProtocolDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KSB9G8373H;
+				INFOPLIST_FILE = LXKNetworkProtocolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xingkuan.lin.LXKNetworkProtocolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXKNetworkProtocolDemo.app/LXKNetworkProtocolDemo";
+			};
+			name = Debug;
+		};
+		C371BF861F1E082300AEAD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D31BB438DFA3E4BB0103666 /* Pods-LXKNetworkProtocolDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KSB9G8373H;
+				INFOPLIST_FILE = LXKNetworkProtocolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xingkuan.lin.LXKNetworkProtocolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXKNetworkProtocolDemo.app/LXKNetworkProtocolDemo";
+			};
+			name = Release;
+		};
+		C371BF881F1E082300AEAD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49165484D344264BC21DA1BC /* Pods-LXKNetworkProtocolDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KSB9G8373H;
+				INFOPLIST_FILE = LXKNetworkProtocolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xingkuan.lin.LXKNetworkProtocolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXKNetworkProtocolDemo;
+			};
+			name = Debug;
+		};
+		C371BF891F1E082300AEAD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD555594D70B5963C000AEE /* Pods-LXKNetworkProtocolDemoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KSB9G8373H;
+				INFOPLIST_FILE = LXKNetworkProtocolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xingkuan.lin.LXKNetworkProtocolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXKNetworkProtocolDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C371BF4F1F1E082200AEAD88 /* Build configuration list for PBXProject "LXKNetworkProtocolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C371BF7F1F1E082300AEAD88 /* Debug */,
+				C371BF801F1E082300AEAD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C371BF811F1E082300AEAD88 /* Build configuration list for PBXNativeTarget "LXKNetworkProtocolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C371BF821F1E082300AEAD88 /* Debug */,
+				C371BF831F1E082300AEAD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C371BF841F1E082300AEAD88 /* Build configuration list for PBXNativeTarget "LXKNetworkProtocolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C371BF851F1E082300AEAD88 /* Debug */,
+				C371BF861F1E082300AEAD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C371BF871F1E082300AEAD88 /* Build configuration list for PBXNativeTarget "LXKNetworkProtocolDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C371BF881F1E082300AEAD88 /* Debug */,
+				C371BF891F1E082300AEAD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C371BF4C1F1E082200AEAD88 /* Project object */;
+}
